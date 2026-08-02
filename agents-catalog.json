@@ -1,0 +1,1032 @@
+{
+  "meta": {
+    "version": "1.0",
+    "model": "hermes3",
+    "organization": "NeuroTurk AI Automation"
+  },
+  "departments": {
+    "DESIGNERS": [
+      {
+        "name": "brand-guidelines",
+        "original_name": "brand-guidelines",
+        "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatt...",
+        "modelfile": "DESIGNERS/Modelfile-brand-guidelines",
+        "source": "DESIGNERS\\brand-guidelines\\SKILL.md"
+      },
+      {
+        "name": "canvas-design",
+        "original_name": "canvas-design",
+        "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create ...",
+        "modelfile": "DESIGNERS/Modelfile-canvas-design",
+        "source": "DESIGNERS\\canvas-design\\SKILL.md"
+      },
+      {
+        "name": "frontend-design",
+        "original_name": "frontend-design",
+        "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated de...",
+        "modelfile": "DESIGNERS/Modelfile-frontend-design",
+        "source": "DESIGNERS\\frontend-design\\SKILL.md"
+      },
+      {
+        "name": "brandkit",
+        "original_name": "brandkit",
+        "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, d...",
+        "modelfile": "DESIGNERS/Modelfile-brandkit",
+        "source": "DESIGNERS\\taste\\skills\\brandkit\\SKILL.md"
+      },
+      {
+        "name": "industrial-brutalist-ui",
+        "original_name": "industrial-brutalist-ui",
+        "description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy d...",
+        "modelfile": "DESIGNERS/Modelfile-industrial-brutalist-ui",
+        "source": "DESIGNERS\\taste\\skills\\brutalist-skill\\SKILL.md"
+      },
+      {
+        "name": "gpt-taste",
+        "original_name": "gpt-taste",
+        "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento ...",
+        "modelfile": "DESIGNERS/Modelfile-gpt-taste",
+        "source": "DESIGNERS\\taste\\skills\\gpt-tasteskill\\SKILL.md"
+      },
+      {
+        "name": "image-to-code",
+        "original_name": "image-to-code",
+        "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as cl...",
+        "modelfile": "DESIGNERS/Modelfile-image-to-code",
+        "source": "DESIGNERS\\taste\\skills\\image-to-code-skill\\SKILL.md"
+      },
+      {
+        "name": "imagegen-frontend-mobile",
+        "original_name": "imagegen-frontend-mobile",
+        "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfo...",
+        "modelfile": "DESIGNERS/Modelfile-imagegen-frontend-mobile",
+        "source": "DESIGNERS\\taste\\skills\\imagegen-frontend-mobile\\SKILL.md"
+      },
+      {
+        "name": "imagegen-frontend-web",
+        "original_name": "imagegen-frontend-web",
+        "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing p...",
+        "modelfile": "DESIGNERS/Modelfile-imagegen-frontend-web",
+        "source": "DESIGNERS\\taste\\skills\\imagegen-frontend-web\\SKILL.md"
+      },
+      {
+        "name": "minimalist-ui",
+        "original_name": "minimalist-ui",
+        "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+        "modelfile": "DESIGNERS/Modelfile-minimalist-ui",
+        "source": "DESIGNERS\\taste\\skills\\minimalist-skill\\SKILL.md"
+      },
+      {
+        "name": "full-output-enforcement",
+        "original_name": "full-output-enforcement",
+        "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged o...",
+        "modelfile": "DESIGNERS/Modelfile-full-output-enforcement",
+        "source": "DESIGNERS\\taste\\skills\\output-skill\\SKILL.md"
+      },
+      {
+        "name": "redesign-existing-projects",
+        "original_name": "redesign-existing-projects",
+        "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any C...",
+        "modelfile": "DESIGNERS/Modelfile-redesign-existing-projects",
+        "source": "DESIGNERS\\taste\\skills\\redesign-skill\\SKILL.md"
+      },
+      {
+        "name": "high-end-visual-design",
+        "original_name": "high-end-visual-design",
+        "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that m...",
+        "modelfile": "DESIGNERS/Modelfile-high-end-visual-design",
+        "source": "DESIGNERS\\taste\\skills\\soft-skill\\SKILL.md"
+      },
+      {
+        "name": "stitch-design-taste",
+        "original_name": "stitch-design-taste",
+        "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, p...",
+        "modelfile": "DESIGNERS/Modelfile-stitch-design-taste",
+        "source": "DESIGNERS\\taste\\skills\\stitch-skill\\SKILL.md"
+      },
+      {
+        "name": "design-taste-frontend",
+        "original_name": "design-taste-frontend",
+        "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design sys...",
+        "modelfile": "DESIGNERS/Modelfile-design-taste-frontend",
+        "source": "DESIGNERS\\taste\\skills\\taste-skill\\SKILL.md"
+      },
+      {
+        "name": "design-taste-frontend-v1",
+        "original_name": "design-taste-frontend-v1",
+        "description": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 in...",
+        "modelfile": "DESIGNERS/Modelfile-design-taste-frontend-v1",
+        "source": "DESIGNERS\\taste\\skills\\taste-skill-v1\\SKILL.md"
+      },
+      {
+        "name": "refine-live",
+        "original_name": "refine-live",
+        "description": "In-chat fallback for the Timeline Inspector Refine agent. Use when the user runs `/refine live`, asks to \"refine live\", \"go live\", or answer refine jobs — but ONLY when no persistent agent is wired...",
+        "modelfile": "DESIGNERS/Modelfile-refine-live",
+        "source": "DESIGNERS\\transitions\\refine\\.agents\\skills\\refine-live\\SKILL.md"
+      },
+      {
+        "name": "transitions-dev",
+        "original_name": "transitions-dev",
+        "description": "Production-ready CSS transitions for web apps. Use when implementing notification badges, dropdowns, modals, panel reveals, page transitions, card resizes, number pop-ins, text swaps, icon swaps, s...",
+        "modelfile": "DESIGNERS/Modelfile-transitions-dev",
+        "source": "DESIGNERS\\transitions\\skills\\transitions-dev\\SKILL.md"
+      },
+      {
+        "name": "transitions-polish",
+        "original_name": "transitions-polish",
+        "description": "Polish and refine existing motion against the transitions.dev motion-token scale — duration, distance, scale, blur, and easing — plus the rules for WHEN each token applies (open/close asymmetry, ho...",
+        "modelfile": "DESIGNERS/Modelfile-transitions-polish",
+        "source": "DESIGNERS\\transitions\\skills\\transitions-polish\\SKILL.md"
+      },
+      {
+        "name": "banner-design",
+        "original_name": "banner-design",
+        "description": "\"Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with AI-generated visuals. Actions: design, create, generate banner. Platforms: Fac...",
+        "modelfile": "DESIGNERS/Modelfile-banner-design",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\banner-design\\SKILL.md"
+      },
+      {
+        "name": "brand",
+        "original_name": "brand",
+        "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+        "modelfile": "DESIGNERS/Modelfile-brand",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\brand\\SKILL.md"
+      },
+      {
+        "name": "design",
+        "original_name": "design",
+        "description": "\"Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart....",
+        "modelfile": "DESIGNERS/Modelfile-design",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\design\\SKILL.md"
+      },
+      {
+        "name": "design-system",
+        "original_name": "design-system",
+        "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide cre...",
+        "modelfile": "DESIGNERS/Modelfile-design-system",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\design-system\\SKILL.md"
+      },
+      {
+        "name": "slides",
+        "original_name": "slides",
+        "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+        "modelfile": "DESIGNERS/Modelfile-slides",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\slides\\SKILL.md"
+      },
+      {
+        "name": "ui-styling",
+        "original_name": "ui-styling",
+        "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user in...",
+        "modelfile": "DESIGNERS/Modelfile-ui-styling",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\ui-styling\\SKILL.md"
+      },
+      {
+        "name": "ui-ux-pro-max",
+        "original_name": "ui-ux-pro-max",
+        "description": "\"UI/UX design intelligence for web and mobile. Searchable local database with 84 styles, 192 color palettes, 74 font pairings, 192 product types, 98 UX guidelines, 104 icon entries, 16 GSAP motion ...",
+        "modelfile": "DESIGNERS/Modelfile-ui-ux-pro-max",
+        "source": "DESIGNERS\\ui-ux-pro-max\\.claude\\skills\\ui-ux-pro-max\\SKILL.md"
+      },
+      {
+        "name": "banner-design",
+        "original_name": "banner-design",
+        "description": "\"Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with AI-generated visuals. Actions: design, create, generate banner. Platforms: Fac...",
+        "modelfile": "DESIGNERS/Modelfile-banner-design",
+        "source": "DESIGNERS\\ui-ux-pro-max\\cli\\assets\\skills\\banner-design\\SKILL.md"
+      },
+      {
+        "name": "brand",
+        "original_name": "brand",
+        "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+        "modelfile": "DESIGNERS/Modelfile-brand",
+        "source": "DESIGNERS\\ui-ux-pro-max\\cli\\assets\\skills\\brand\\SKILL.md"
+      },
+      {
+        "name": "design",
+        "original_name": "design",
+        "description": "\"Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart....",
+        "modelfile": "DESIGNERS/Modelfile-design",
+        "source": "DESIGNERS\\ui-ux-pro-max\\cli\\assets\\skills\\design\\SKILL.md"
+      },
+      {
+        "name": "design-system",
+        "original_name": "design-system",
+        "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide cre...",
+        "modelfile": "DESIGNERS/Modelfile-design-system",
+        "source": "DESIGNERS\\ui-ux-pro-max\\cli\\assets\\skills\\design-system\\SKILL.md"
+      },
+      {
+        "name": "slides",
+        "original_name": "slides",
+        "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+        "modelfile": "DESIGNERS/Modelfile-slides",
+        "source": "DESIGNERS\\ui-ux-pro-max\\cli\\assets\\skills\\slides\\SKILL.md"
+      },
+      {
+        "name": "ui-styling",
+        "original_name": "ui-styling",
+        "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user in...",
+        "modelfile": "DESIGNERS/Modelfile-ui-styling",
+        "source": "DESIGNERS\\ui-ux-pro-max\\cli\\assets\\skills\\ui-styling\\SKILL.md"
+      },
+      {
+        "name": "web-artifacts-builder",
+        "original_name": "web-artifacts-builder",
+        "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma...",
+        "modelfile": "DESIGNERS/Modelfile-web-artifacts-builder",
+        "source": "DESIGNERS\\web-artifacts\\SKILL.md"
+      }
+    ],
+    "DEVELOPERS": [
+      {
+        "name": "claude-mem",
+        "original_name": "claude-mem",
+        "description": "DEVELOPERS departmanı - claude-mem skill",
+        "modelfile": "DEVELOPERS/Modelfile-claude-mem",
+        "source": "DEVELOPERS\\claude-mem\\openclaw\\SKILL.md"
+      },
+      {
+        "name": "do",
+        "original_name": "do",
+        "description": "Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.",
+        "modelfile": "DEVELOPERS/Modelfile-do",
+        "source": "DEVELOPERS\\claude-mem\\openclaw\\skills\\do\\SKILL.md"
+      },
+      {
+        "name": "make-plan",
+        "original_name": "make-plan",
+        "description": "Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.",
+        "modelfile": "DEVELOPERS/Modelfile-make-plan",
+        "source": "DEVELOPERS\\claude-mem\\openclaw\\skills\\make-plan\\SKILL.md"
+      },
+      {
+        "name": "babysit",
+        "original_name": "babysit",
+        "description": "Watch a pull request or review cycle until it is ready to merge. Use when asked to babysit, monitor, or keep checking PR comments, reviews, and CI until all actionable issues are resolved.",
+        "modelfile": "DEVELOPERS/Modelfile-babysit",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\babysit\\SKILL.md"
+      },
+      {
+        "name": "cloud-sync",
+        "original_name": "cloud-sync",
+        "description": "Set up or check claude-mem cloud sync with cmem.ai Pro. Use when the user says \"set up cloud sync\", \"sync my memories\", \"cmem pro\", \"cloud backup\", \"sync status\", or wants their memory database bac...",
+        "modelfile": "DEVELOPERS/Modelfile-cloud-sync",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\cloud-sync\\SKILL.md"
+      },
+      {
+        "name": "design-is",
+        "original_name": "design-is",
+        "description": "Audit a design against Dieter Rams' ten \"Good design is...\" principles, then hand off a /make-plan prompt for one of three outcomes — new design, refine design, or redesign. Use when the user says ...",
+        "modelfile": "DEVELOPERS/Modelfile-design-is",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\design-is\\SKILL.md"
+      },
+      {
+        "name": "do",
+        "original_name": "do",
+        "description": "Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.",
+        "modelfile": "DEVELOPERS/Modelfile-do",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\do\\SKILL.md"
+      },
+      {
+        "name": "how-it-works",
+        "original_name": "how-it-works",
+        "description": "Explain how claude-mem captures observations, when memory injection kicks in, and where data lives. Use when the user asks \"how does claude-mem work?\" or \"what is this thing doing?\".",
+        "modelfile": "DEVELOPERS/Modelfile-how-it-works",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\how-it-works\\SKILL.md"
+      },
+      {
+        "name": "knowledge-agent",
+        "original_name": "knowledge-agent",
+        "description": "Build and query AI-powered knowledge bases from claude-mem observations. Use when users want to create focused \"brains\" from their observation history, ask questions about past work patterns, or co...",
+        "modelfile": "DEVELOPERS/Modelfile-knowledge-agent",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\knowledge-agent\\SKILL.md"
+      },
+      {
+        "name": "learn-codebase",
+        "original_name": "learn-codebase",
+        "description": "Prime a codebase by reading every source file in full. Use when starting work on a new or unfamiliar project, or when the user asks to \"learn the codebase\", \"read the codebase\", \"prime\", or \"get up...",
+        "modelfile": "DEVELOPERS/Modelfile-learn-codebase",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\learn-codebase\\SKILL.md"
+      },
+      {
+        "name": "make-plan",
+        "original_name": "make-plan",
+        "description": "Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.",
+        "modelfile": "DEVELOPERS/Modelfile-make-plan",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\make-plan\\SKILL.md"
+      },
+      {
+        "name": "mem-search",
+        "original_name": "mem-search",
+        "description": "Search claude-mem's persistent cross-session memory database. Use when user asks \"did we already solve this?\", \"how did we do X last time?\", or needs work from previous sessions.",
+        "modelfile": "DEVELOPERS/Modelfile-mem-search",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\mem-search\\SKILL.md"
+      },
+      {
+        "name": "oh-my-issues",
+        "original_name": "oh-my-issues",
+        "description": "Cluster a GitHub issue backlog by root cause into a small set of plan-master issues, redirect children with a standardized comment, and bundle architectural-fix PRs that close clusters atomically. ...",
+        "modelfile": "DEVELOPERS/Modelfile-oh-my-issues",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\oh-my-issues\\SKILL.md"
+      },
+      {
+        "name": "pathfinder",
+        "original_name": "pathfinder",
+        "description": "Map a codebase into feature-grouped flowcharts, identify duplicated concerns across features, and propose a unified architecture. Use when asked to \"find the ideal path,\" unify duplicated systems, ...",
+        "modelfile": "DEVELOPERS/Modelfile-pathfinder",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\pathfinder\\SKILL.md"
+      },
+      {
+        "name": "smart-explore",
+        "original_name": "smart-explore",
+        "description": "Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.",
+        "modelfile": "DEVELOPERS/Modelfile-smart-explore",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\smart-explore\\SKILL.md"
+      },
+      {
+        "name": "standup",
+        "original_name": "standup",
+        "description": "Facilitate a read-only standup across git worktrees, branches, or PRs to compare changes and produce one consolidation plan.",
+        "modelfile": "DEVELOPERS/Modelfile-standup",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\standup\\SKILL.md"
+      },
+      {
+        "name": "timeline-report",
+        "original_name": "timeline-report",
+        "description": "Generate a \"Journey Into [Project]\" narrative report analyzing a project's entire development history from claude-mem's timeline. Use when asked for a timeline report, project history analysis, dev...",
+        "modelfile": "DEVELOPERS/Modelfile-timeline-report",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\timeline-report\\SKILL.md"
+      },
+      {
+        "name": "version-bump",
+        "original_name": "version-bump",
+        "description": "Automated semantic versioning and release workflow for Claude Code plugins. Handles version increments across package.json, marketplace.json, plugin.json manifests, build verification, git tagging,...",
+        "modelfile": "DEVELOPERS/Modelfile-version-bump",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\version-bump\\SKILL.md"
+      },
+      {
+        "name": "weekly-digests",
+        "original_name": "weekly-digests",
+        "description": "Generate a serial week-by-week narrative digest of a project's full claude-mem timeline. Splits the timeline into per-ISO-week files, then runs one consecutive subagent per week — each receiving th...",
+        "modelfile": "DEVELOPERS/Modelfile-weekly-digests",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\weekly-digests\\SKILL.md"
+      },
+      {
+        "name": "what-the",
+        "original_name": "what-the",
+        "description": "\"What the? Use when the user wants a plain-English breakdown of something technical — the who, what, where, why, and when.\"",
+        "modelfile": "DEVELOPERS/Modelfile-what-the",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\what-the\\SKILL.md"
+      },
+      {
+        "name": "wowerpoint",
+        "original_name": "wowerpoint",
+        "description": "Turn one document into a kawaii NotebookLM slide-deck PDF. Use for \"wowerpoint this\", \"make a deck about <file>\", \"turn this report into slides\", or any request to render a single document as share...",
+        "modelfile": "DEVELOPERS/Modelfile-wowerpoint",
+        "source": "DEVELOPERS\\claude-mem\\plugin\\skills\\wowerpoint\\SKILL.md"
+      },
+      {
+        "name": "context7-docs",
+        "original_name": "context7-docs",
+        "description": ">-",
+        "modelfile": "DEVELOPERS/Modelfile-context7-docs",
+        "source": "DEVELOPERS\\context7\\packages\\pi\\skills\\context7-docs\\SKILL.md"
+      },
+      {
+        "name": "context7-mcp",
+        "original_name": "context7-mcp",
+        "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of ...",
+        "modelfile": "DEVELOPERS/Modelfile-context7-mcp",
+        "source": "DEVELOPERS\\context7\\plugins\\claude\\context7\\skills\\context7-mcp\\SKILL.md"
+      },
+      {
+        "name": "context7-mcp",
+        "original_name": "context7-mcp",
+        "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of ...",
+        "modelfile": "DEVELOPERS/Modelfile-context7-mcp",
+        "source": "DEVELOPERS\\context7\\plugins\\codex\\context7\\skills\\context7-mcp\\SKILL.md"
+      },
+      {
+        "name": "context7-mcp",
+        "original_name": "context7-mcp",
+        "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of ...",
+        "modelfile": "DEVELOPERS/Modelfile-context7-mcp",
+        "source": "DEVELOPERS\\context7\\plugins\\copilot\\context7\\skills\\context7-mcp\\SKILL.md"
+      },
+      {
+        "name": "context7-mcp",
+        "original_name": "context7-mcp",
+        "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of ...",
+        "modelfile": "DEVELOPERS/Modelfile-context7-mcp",
+        "source": "DEVELOPERS\\context7\\plugins\\cursor\\context7\\skills\\context7-mcp\\SKILL.md"
+      },
+      {
+        "name": "context7-cli",
+        "original_name": "context7-cli",
+        "description": "Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP. Activate when the user mentions \"ctx7\" or \"context7\", needs current docs for any library, wants...",
+        "modelfile": "DEVELOPERS/Modelfile-context7-cli",
+        "source": "DEVELOPERS\\context7\\skills\\context7-cli\\SKILL.md"
+      },
+      {
+        "name": "context7-mcp",
+        "original_name": "context7-mcp",
+        "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of ...",
+        "modelfile": "DEVELOPERS/Modelfile-context7-mcp",
+        "source": "DEVELOPERS\\context7\\skills\\context7-mcp\\SKILL.md"
+      },
+      {
+        "name": "find-docs",
+        "original_name": "find-docs",
+        "description": ">-",
+        "modelfile": "DEVELOPERS/Modelfile-find-docs",
+        "source": "DEVELOPERS\\context7\\skills\\find-docs\\SKILL.md"
+      },
+      {
+        "name": "mcp-builder",
+        "original_name": "mcp-builder",
+        "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate exte...",
+        "modelfile": "DEVELOPERS/Modelfile-mcp-builder",
+        "source": "DEVELOPERS\\mcp-builder\\SKILL.md"
+      },
+      {
+        "name": "skill-creator",
+        "original_name": "skill-creator",
+        "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a sk...",
+        "modelfile": "DEVELOPERS/Modelfile-skill-creator",
+        "source": "DEVELOPERS\\skill-creator\\SKILL.md"
+      },
+      {
+        "name": "brainstorming",
+        "original_name": "brainstorming",
+        "description": "\"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\"",
+        "modelfile": "DEVELOPERS/Modelfile-brainstorming",
+        "source": "DEVELOPERS\\superpowers\\brainstorming\\SKILL.md"
+      },
+      {
+        "name": "dispatching-parallel-agents",
+        "original_name": "dispatching-parallel-agents",
+        "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "modelfile": "DEVELOPERS/Modelfile-dispatching-parallel-agents",
+        "source": "DEVELOPERS\\superpowers\\dispatching-parallel-agents\\SKILL.md"
+      },
+      {
+        "name": "executing-plans",
+        "original_name": "executing-plans",
+        "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+        "modelfile": "DEVELOPERS/Modelfile-executing-plans",
+        "source": "DEVELOPERS\\superpowers\\executing-plans\\SKILL.md"
+      },
+      {
+        "name": "finishing-a-development-branch",
+        "original_name": "finishing-a-development-branch",
+        "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+        "modelfile": "DEVELOPERS/Modelfile-finishing-a-development-branch",
+        "source": "DEVELOPERS\\superpowers\\finishing-a-development-branch\\SKILL.md"
+      },
+      {
+        "name": "receiving-code-review",
+        "original_name": "receiving-code-review",
+        "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performat...",
+        "modelfile": "DEVELOPERS/Modelfile-receiving-code-review",
+        "source": "DEVELOPERS\\superpowers\\receiving-code-review\\SKILL.md"
+      },
+      {
+        "name": "requesting-code-review",
+        "original_name": "requesting-code-review",
+        "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+        "modelfile": "DEVELOPERS/Modelfile-requesting-code-review",
+        "source": "DEVELOPERS\\superpowers\\requesting-code-review\\SKILL.md"
+      },
+      {
+        "name": "subagent-driven-development",
+        "original_name": "subagent-driven-development",
+        "description": "Use when executing implementation plans with independent tasks in the current session",
+        "modelfile": "DEVELOPERS/Modelfile-subagent-driven-development",
+        "source": "DEVELOPERS\\superpowers\\subagent-driven-development\\SKILL.md"
+      },
+      {
+        "name": "systematic-debugging",
+        "original_name": "systematic-debugging",
+        "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+        "modelfile": "DEVELOPERS/Modelfile-systematic-debugging",
+        "source": "DEVELOPERS\\superpowers\\systematic-debugging\\SKILL.md"
+      },
+      {
+        "name": "test-driven-development",
+        "original_name": "test-driven-development",
+        "description": "Use when implementing any feature or bugfix, before writing implementation code",
+        "modelfile": "DEVELOPERS/Modelfile-test-driven-development",
+        "source": "DEVELOPERS\\superpowers\\test-driven-development\\SKILL.md"
+      },
+      {
+        "name": "using-git-worktrees",
+        "original_name": "using-git-worktrees",
+        "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+        "modelfile": "DEVELOPERS/Modelfile-using-git-worktrees",
+        "source": "DEVELOPERS\\superpowers\\using-git-worktrees\\SKILL.md"
+      },
+      {
+        "name": "using-superpowers",
+        "original_name": "using-superpowers",
+        "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+        "modelfile": "DEVELOPERS/Modelfile-using-superpowers",
+        "source": "DEVELOPERS\\superpowers\\using-superpowers\\SKILL.md"
+      },
+      {
+        "name": "verification-before-completion",
+        "original_name": "verification-before-completion",
+        "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evide...",
+        "modelfile": "DEVELOPERS/Modelfile-verification-before-completion",
+        "source": "DEVELOPERS\\superpowers\\verification-before-completion\\SKILL.md"
+      },
+      {
+        "name": "writing-plans",
+        "original_name": "writing-plans",
+        "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+        "modelfile": "DEVELOPERS/Modelfile-writing-plans",
+        "source": "DEVELOPERS\\superpowers\\writing-plans\\SKILL.md"
+      },
+      {
+        "name": "writing-skills",
+        "original_name": "writing-skills",
+        "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+        "modelfile": "DEVELOPERS/Modelfile-writing-skills",
+        "source": "DEVELOPERS\\superpowers\\writing-skills\\SKILL.md"
+      },
+      {
+        "name": "webapp-testing",
+        "original_name": "webapp-testing",
+        "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browse...",
+        "modelfile": "DEVELOPERS/Modelfile-webapp-testing",
+        "source": "DEVELOPERS\\webapp-testing\\SKILL.md"
+      }
+    ],
+    "MARKETING": [
+      {
+        "name": "ab-testing",
+        "original_name": "ab-testing",
+        "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test...",
+        "modelfile": "MARKETING/Modelfile-ab-testing",
+        "source": "MARKETING\\skills-pack\\skills\\ab-testing\\SKILL.md"
+      },
+      {
+        "name": "ad-creative",
+        "original_name": "ad-creative",
+        "description": "\"When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions '...",
+        "modelfile": "MARKETING/Modelfile-ad-creative",
+        "source": "MARKETING\\skills-pack\\skills\\ad-creative\\SKILL.md"
+      },
+      {
+        "name": "ads",
+        "original_name": "ads",
+        "description": "\"When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' ...",
+        "modelfile": "MARKETING/Modelfile-ads",
+        "source": "MARKETING\\skills-pack\\skills\\ads\\SKILL.md"
+      },
+      {
+        "name": "ai-seo",
+        "original_name": "ai-seo",
+        "description": "\"When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine ...",
+        "modelfile": "MARKETING/Modelfile-ai-seo",
+        "source": "MARKETING\\skills-pack\\skills\\ai-seo\\SKILL.md"
+      },
+      {
+        "name": "analytics",
+        "original_name": "analytics",
+        "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event trac...",
+        "modelfile": "MARKETING/Modelfile-analytics",
+        "source": "MARKETING\\skills-pack\\skills\\analytics\\SKILL.md"
+      },
+      {
+        "name": "aso",
+        "original_name": "aso",
+        "description": "\"When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibil...",
+        "modelfile": "MARKETING/Modelfile-aso",
+        "source": "MARKETING\\skills-pack\\skills\\aso\\SKILL.md"
+      },
+      {
+        "name": "attribution",
+        "original_name": "attribution",
+        "description": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the...",
+        "modelfile": "MARKETING/Modelfile-attribution",
+        "source": "MARKETING\\skills-pack\\skills\\attribution\\SKILL.md"
+      },
+      {
+        "name": "churn-prevention",
+        "original_name": "churn-prevention",
+        "description": "\"When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow...",
+        "modelfile": "MARKETING/Modelfile-churn-prevention",
+        "source": "MARKETING\\skills-pack\\skills\\churn-prevention\\SKILL.md"
+      },
+      {
+        "name": "co-marketing",
+        "original_name": "co-marketing",
+        "description": "\"When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who...",
+        "modelfile": "MARKETING/Modelfile-co-marketing",
+        "source": "MARKETING\\skills-pack\\skills\\co-marketing\\SKILL.md"
+      },
+      {
+        "name": "cold-email",
+        "original_name": "cold-email",
+        "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR ema...",
+        "modelfile": "MARKETING/Modelfile-cold-email",
+        "source": "MARKETING\\skills-pack\\skills\\cold-email\\SKILL.md"
+      },
+      {
+        "name": "community-marketing",
+        "original_name": "community-marketing",
+        "description": "\"Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subred...",
+        "modelfile": "MARKETING/Modelfile-community-marketing",
+        "source": "MARKETING\\skills-pack\\skills\\community-marketing\\SKILL.md"
+      },
+      {
+        "name": "competitor-profiling",
+        "original_name": "competitor-profiling",
+        "description": "\"When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this ...",
+        "modelfile": "MARKETING/Modelfile-competitor-profiling",
+        "source": "MARKETING\\skills-pack\\skills\\competitor-profiling\\SKILL.md"
+      },
+      {
+        "name": "competitors",
+        "original_name": "competitors",
+        "description": "\"When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comp...",
+        "modelfile": "MARKETING/Modelfile-competitors",
+        "source": "MARKETING\\skills-pack\\skills\\competitors\\SKILL.md"
+      },
+      {
+        "name": "content-strategy",
+        "original_name": "content-strategy",
+        "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"...",
+        "modelfile": "MARKETING/Modelfile-content-strategy",
+        "source": "MARKETING\\skills-pack\\skills\\content-strategy\\SKILL.md"
+      },
+      {
+        "name": "copy-editing",
+        "original_name": "copy-editing",
+        "description": "\"When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofrea...",
+        "modelfile": "MARKETING/Modelfile-copy-editing",
+        "source": "MARKETING\\skills-pack\\skills\\copy-editing\\SKILL.md"
+      },
+      {
+        "name": "copywriting",
+        "original_name": "copywriting",
+        "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the use...",
+        "modelfile": "MARKETING/Modelfile-copywriting",
+        "source": "MARKETING\\skills-pack\\skills\\copywriting\\SKILL.md"
+      },
+      {
+        "name": "cro",
+        "original_name": "cro",
+        "description": "\"When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact fo...",
+        "modelfile": "MARKETING/Modelfile-cro",
+        "source": "MARKETING\\skills-pack\\skills\\cro\\SKILL.md"
+      },
+      {
+        "name": "customer-research",
+        "original_name": "customer-research",
+        "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer inter...",
+        "modelfile": "MARKETING/Modelfile-customer-research",
+        "source": "MARKETING\\skills-pack\\skills\\customer-research\\SKILL.md"
+      },
+      {
+        "name": "directory-submissions",
+        "original_name": "directory-submissions",
+        "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory ...",
+        "modelfile": "MARKETING/Modelfile-directory-submissions",
+        "source": "MARKETING\\skills-pack\\skills\\directory-submissions\\SKILL.md"
+      },
+      {
+        "name": "emails",
+        "original_name": "emails",
+        "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nur...",
+        "modelfile": "MARKETING/Modelfile-emails",
+        "source": "MARKETING\\skills-pack\\skills\\emails\\SKILL.md"
+      },
+      {
+        "name": "free-tools",
+        "original_name": "free-tools",
+        "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"fre...",
+        "modelfile": "MARKETING/Modelfile-free-tools",
+        "source": "MARKETING\\skills-pack\\skills\\free-tools\\SKILL.md"
+      },
+      {
+        "name": "image",
+        "original_name": "image",
+        "description": "\"When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when th...",
+        "modelfile": "MARKETING/Modelfile-image",
+        "source": "MARKETING\\skills-pack\\skills\\image\\SKILL.md"
+      },
+      {
+        "name": "influencer-marketing",
+        "original_name": "influencer-marketing",
+        "description": "\"When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and...",
+        "modelfile": "MARKETING/Modelfile-influencer-marketing",
+        "source": "MARKETING\\skills-pack\\skills\\influencer-marketing\\SKILL.md"
+      },
+      {
+        "name": "launch",
+        "original_name": "launch",
+        "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,...",
+        "modelfile": "MARKETING/Modelfile-launch",
+        "source": "MARKETING\\skills-pack\\skills\\launch\\SKILL.md"
+      },
+      {
+        "name": "lead-magnets",
+        "original_name": "lead-magnets",
+        "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable...",
+        "modelfile": "MARKETING/Modelfile-lead-magnets",
+        "source": "MARKETING\\skills-pack\\skills\\lead-magnets\\SKILL.md"
+      },
+      {
+        "name": "marketing-council",
+        "original_name": "marketing-council",
+        "description": "\"When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, R...",
+        "modelfile": "MARKETING/Modelfile-marketing-council",
+        "source": "MARKETING\\skills-pack\\skills\\marketing-council\\SKILL.md"
+      },
+      {
+        "name": "marketing-ideas",
+        "original_name": "marketing-ideas",
+        "description": "\"When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing s...",
+        "modelfile": "MARKETING/Modelfile-marketing-ideas",
+        "source": "MARKETING\\skills-pack\\skills\\marketing-ideas\\SKILL.md"
+      },
+      {
+        "name": "marketing-loops",
+        "original_name": "marketing-loops",
+        "description": "\"When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when...",
+        "modelfile": "MARKETING/Modelfile-marketing-loops",
+        "source": "MARKETING\\skills-pack\\skills\\marketing-loops\\SKILL.md"
+      },
+      {
+        "name": "marketing-plan",
+        "original_name": "marketing-plan",
+        "description": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-mar...",
+        "modelfile": "MARKETING/Modelfile-marketing-plan",
+        "source": "MARKETING\\skills-pack\\skills\\marketing-plan\\SKILL.md"
+      },
+      {
+        "name": "marketing-psychology",
+        "original_name": "marketing-psychology",
+        "description": "\"When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasi...",
+        "modelfile": "MARKETING/Modelfile-marketing-psychology",
+        "source": "MARKETING\\skills-pack\\skills\\marketing-psychology\\SKILL.md"
+      },
+      {
+        "name": "offers",
+        "original_name": "offers",
+        "description": "\"When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment stru...",
+        "modelfile": "MARKETING/Modelfile-offers",
+        "source": "MARKETING\\skills-pack\\skills\\offers\\SKILL.md"
+      },
+      {
+        "name": "onboarding",
+        "original_name": "onboarding",
+        "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activati...",
+        "modelfile": "MARKETING/Modelfile-onboarding",
+        "source": "MARKETING\\skills-pack\\skills\\onboarding\\SKILL.md"
+      },
+      {
+        "name": "paywalls",
+        "original_name": "paywalls",
+        "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" ...",
+        "modelfile": "MARKETING/Modelfile-paywalls",
+        "source": "MARKETING\\skills-pack\\skills\\paywalls\\SKILL.md"
+      },
+      {
+        "name": "popups",
+        "original_name": "popups",
+        "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimiz...",
+        "modelfile": "MARKETING/Modelfile-popups",
+        "source": "MARKETING\\skills-pack\\skills\\popups\\SKILL.md"
+      },
+      {
+        "name": "pricing",
+        "original_name": "pricing",
+        "description": "\"When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price incr...",
+        "modelfile": "MARKETING/Modelfile-pricing",
+        "source": "MARKETING\\skills-pack\\skills\\pricing\\SKILL.md"
+      },
+      {
+        "name": "product-marketing",
+        "original_name": "product-marketing",
+        "description": "\"When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is m...",
+        "modelfile": "MARKETING/Modelfile-product-marketing",
+        "source": "MARKETING\\skills-pack\\skills\\product-marketing\\SKILL.md"
+      },
+      {
+        "name": "programmatic-seo",
+        "original_name": "programmatic-seo",
+        "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"locatio...",
+        "modelfile": "MARKETING/Modelfile-programmatic-seo",
+        "source": "MARKETING\\skills-pack\\skills\\programmatic-seo\\SKILL.md"
+      },
+      {
+        "name": "prospecting",
+        "original_name": "prospecting",
+        "description": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build ...",
+        "modelfile": "MARKETING/Modelfile-prospecting",
+        "source": "MARKETING\\skills-pack\\skills\\prospecting\\SKILL.md"
+      },
+      {
+        "name": "public-relations",
+        "original_name": "public-relations",
+        "description": "\"When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' ...",
+        "modelfile": "MARKETING/Modelfile-public-relations",
+        "source": "MARKETING\\skills-pack\\skills\\public-relations\\SKILL.md"
+      },
+      {
+        "name": "referrals",
+        "original_name": "referrals",
+        "description": "\"When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word o...",
+        "modelfile": "MARKETING/Modelfile-referrals",
+        "source": "MARKETING\\skills-pack\\skills\\referrals\\SKILL.md"
+      },
+      {
+        "name": "revops",
+        "original_name": "revops",
+        "description": "\"When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,...",
+        "modelfile": "MARKETING/Modelfile-revops",
+        "source": "MARKETING\\skills-pack\\skills\\revops\\SKILL.md"
+      },
+      {
+        "name": "sales-enablement",
+        "original_name": "sales-enablement",
+        "description": "\"When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-b...",
+        "modelfile": "MARKETING/Modelfile-sales-enablement",
+        "source": "MARKETING\\skills-pack\\skills\\sales-enablement\\SKILL.md"
+      },
+      {
+        "name": "schema",
+        "original_name": "schema",
+        "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema...",
+        "modelfile": "MARKETING/Modelfile-schema",
+        "source": "MARKETING\\skills-pack\\skills\\schema\\SKILL.md"
+      },
+      {
+        "name": "seo-audit",
+        "original_name": "seo-audit",
+        "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta ...",
+        "modelfile": "MARKETING/Modelfile-seo-audit",
+        "source": "MARKETING\\skills-pack\\skills\\seo-audit\\SKILL.md"
+      },
+      {
+        "name": "signup",
+        "original_name": "signup",
+        "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimi...",
+        "modelfile": "MARKETING/Modelfile-signup",
+        "source": "MARKETING\\skills-pack\\skills\\signup\\SKILL.md"
+      },
+      {
+        "name": "site-architecture",
+        "original_name": "site-architecture",
+        "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitem...",
+        "modelfile": "MARKETING/Modelfile-site-architecture",
+        "source": "MARKETING\\skills-pack\\skills\\site-architecture\\SKILL.md"
+      },
+      {
+        "name": "sms",
+        "original_name": "sms",
+        "description": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use...",
+        "modelfile": "MARKETING/Modelfile-sms",
+        "source": "MARKETING\\skills-pack\\skills\\sms\\SKILL.md"
+      },
+      {
+        "name": "social",
+        "original_name": "social",
+        "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and enga...",
+        "modelfile": "MARKETING/Modelfile-social",
+        "source": "MARKETING\\skills-pack\\skills\\social\\SKILL.md"
+      },
+      {
+        "name": "video",
+        "original_name": "video",
+        "description": "\"When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframe...",
+        "modelfile": "MARKETING/Modelfile-video",
+        "source": "MARKETING\\skills-pack\\skills\\video\\SKILL.md"
+      }
+    ],
+    "SOCIAL_MEDIA": [
+      {
+        "name": "analytics-dashboard",
+        "original_name": "analytics-dashboard",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-analytics-dashboard",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\analytics-dashboard\\SKILL.md"
+      },
+      {
+        "name": "content-matrix",
+        "original_name": "content-matrix",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-content-matrix",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\content-matrix\\SKILL.md"
+      },
+      {
+        "name": "gemini-carousel",
+        "original_name": "gemini-carousel",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-gemini-carousel",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\gemini-carousel\\SKILL.md"
+      },
+      {
+        "name": "gemini-infographic",
+        "original_name": "gemini-infographic",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-gemini-infographic",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\gemini-infographic\\SKILL.md"
+      },
+      {
+        "name": "graphic-designer",
+        "original_name": "graphic-designer",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-graphic-designer",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\graphic-designer\\SKILL.md"
+      },
+      {
+        "name": "hook-generator",
+        "original_name": "hook-generator",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-hook-generator",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\hook-generator\\SKILL.md"
+      },
+      {
+        "name": "newsletter-voice",
+        "original_name": "newsletter-voice",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-newsletter-voice",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\newsletter-voice\\SKILL.md"
+      },
+      {
+        "name": "niche-research",
+        "original_name": "niche-research",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-niche-research",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\niche-research\\SKILL.md"
+      },
+      {
+        "name": "pinned-comment",
+        "original_name": "pinned-comment",
+        "description": "Write LinkedIn pinned comments AND image generation prompts in Charlie Hills' signature style. Use when Charlie or his team asks for a pinned comment, pin comment, or first comment for a LinkedIn p...",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-pinned-comment",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\pinned-comment\\SKILL.md"
+      },
+      {
+        "name": "post-formatter",
+        "original_name": "post-formatter",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-post-formatter",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\post-formatter\\SKILL.md"
+      },
+      {
+        "name": "post-scorer",
+        "original_name": "post-scorer",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-post-scorer",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\post-scorer\\SKILL.md"
+      },
+      {
+        "name": "post-writer",
+        "original_name": "post-writer",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-post-writer",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\post-writer\\SKILL.md"
+      },
+      {
+        "name": "profile-optimizer",
+        "original_name": "profile-optimizer",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-profile-optimizer",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\profile-optimizer\\SKILL.md"
+      },
+      {
+        "name": "quote-post",
+        "original_name": "quote-post",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-quote-post",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\quote-post\\SKILL.md"
+      },
+      {
+        "name": "reels-scripting",
+        "original_name": "reels-scripting",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-reels-scripting",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\reels-scripting\\SKILL.md"
+      },
+      {
+        "name": "voice-builder",
+        "original_name": "voice-builder",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-voice-builder",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\voice-builder\\SKILL.md"
+      },
+      {
+        "name": "youtube-thumbnail",
+        "original_name": "youtube-thumbnail",
+        "description": ">",
+        "modelfile": "SOCIAL_MEDIA/Modelfile-youtube-thumbnail",
+        "source": "SOCIAL_MEDIA\\skills-pack\\skills\\youtube-thumbnail\\SKILL.md"
+      }
+    ]
+  }
+}
